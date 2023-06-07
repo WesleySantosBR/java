@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>java</title>
+    <script src="./java.js"></script>
+</head>
+
+<body>
+    <div>
+    <img id="imagem1" src="./logo.gif" alt="logo">
+</div>
+<div id="div1">
+    <label id="label1">
+        converte de
+        <select>
+            <option>Real Brasileiro</option>
+            
+        </select>
+    </label>
+    <label id="label2">
+        converte para
+        <select id="select">
+            <option value="Dollar">Dolar Americano</option>
+            <option value="Euro">Euro</option>
+        </select>
+    </label>
+    
+    <input onkeypress="digiteinoinput()" id="input1" placeholder="1.000">
+    
+    <button onclick="cliqueinobotao()" id="button1">Converter</button>
+
+    <section id="section">
+        <div id="flex">
+            <img id="imagem2" src="./brasil.png" alt="brasil">
+            <p id="realp">Real</p>
+            <p id="real">00,00</p> 
+        </div>
+        <img id="seta" src="./Vector.png" alt="Seta Para Baixo">
+        <div id="flex">
+            <img id="imagem3" src="./usa.png" alt="brasil">
+            <p id="dollarp">Dollar</p>
+            <p id="dollar">00,00</p> 
+        </div>
+    </section>
+</div>
+</body>
+
+</html>
